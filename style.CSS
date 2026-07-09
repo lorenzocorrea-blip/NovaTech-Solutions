@@ -1,0 +1,87 @@
+body{ /* corpo do site com o body, essa parte vai trabalhar a cor a cor de texto e a fonte da letra.*/
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: white;
+    text-align: center;
+}
+
+/* Cabeçalho da pagina com header, com roxa,preta. */
+header{
+    background-color: #6A5AF9;
+    color: black;
+    padding: 30px;
+}
+
+/* Menu */
+nav{
+    background-color: #B39DDB;
+    padding: 15px;
+}
+
+nav ul{/* trabalha com a lista, display para colocar de lado, estilo da lita e o centralizar. */
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{/* deixando os links da cor preta.*/
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{/* mouse passa por cima e ele fica branco.*/
+    color: white;
+}
+
+/* trabalha com as seções. */
+section{
+    text-align: center;
+    padding: 40px;
+}
+
+section h2{
+    text-align: center;
+}
+
+/* trabalha com os produtos, centralizando e colocando de lado. */
+.produtos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Cards, deixa o prduto com um quadrado atras e fica bonito. */
+.card{
+    text-align: center;
+}
+
+/* Imagens. */
+img{
+    display: block;
+    margin: auto;
+}
+
+/* Botões. */
+.card a{
+    color: white;
+    background-color: #6A5AF9;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card a:hover{
+    background-color: #866faf;
+}
+
+/* Rodapé da pagina. */
+footer{
+    background-color: #3b29df;
+    color: black;
+    padding: 30px;
+    text-align: center;
+}
